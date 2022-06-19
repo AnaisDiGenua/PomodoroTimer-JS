@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap" rel="stylesheet"> 
+    <title>Pomodoro App</title>
+</head>
+<body>
+    
+    <h1>Pomodoro App</h1>
+
+    <div class="board">
+        <div class="pomodoro">
+            <img src="img/pomodoro.png" alt="pomodoro" width="400" height="400">
+        </div>
+
+        <div class="controls">
+            <div class="timers">
+                <div id="workTimer" class="timer timer--active">00.40</div>
+                <div id="breakTimer" class="timer">00.15</div>
+            </div>
+
+            <button id="controlBtn" class="controll-btn"></button>
+            <button id="addTimeBtn" class="add-time-btn" disabled>+ 1 min</button>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <!-- 42 min -->
+</body>
+</html>
