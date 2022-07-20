@@ -16,7 +16,13 @@
 
     <div class="board">
         <div class="pomodoro">
-            <img src="img/pomodoro.png" alt="pomodoro" width="400" height="400">
+            <svg class="progress-ring progress-ring--shadow" viewBox="0 0 110 110">
+                <circle r="50" cx="50%" cy="50%" />      
+            </svg>
+            <svg class="progress-ring progress-ring--timer" viewBox="0 0 110 110">                
+                <circle id="circle-timer" r="50" cx="50%" cy="50%" />              
+            </svg>
+            <div class="needle"></div>
         </div>
 
         <div class="controls">
@@ -25,7 +31,7 @@
                 <div id="breakTimer" class="timer">00.15</div>
             </div>
 
-            <button id="controlBtn" class="controll-btn"></button>
+            <button id="controlBtn" class="control-btn"></button>
             <button id="addTimeBtn" class="add-time-btn" disabled>+ 1 min</button>
         </div>
     </div>
